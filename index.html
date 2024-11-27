@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -79,3 +80,86 @@
     <script src="script.js"></script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game" id="popup-1">
+      <h1>Memory Game</h1>
+      <div class="overlay"></div>
+      <div class="popup-content-start">
+        <h1>Welcome</h1>
+        <label for="level-select" class="label-select"
+          >Choose your level:</label
+        >
+        <select class="select_level" name="level" id="level-select">
+          <option value="easy">6 img</option>
+          <option value="medium">12 img</option>
+          <option value="hard">16 img</option>
+          <option value="extra-hard">20 img</option>
+        </select>
+        <button class="start">Start</button>
+      </div>
+      <div class="popup-content-finish">
+        <h1>Finish</h1>
+        <p class="status">Not so bed</p>
+        <p class="score">Score: <span id="score-popup">0</span></p>
+        <div class="buttons">
+          <button class="new-game">New Game</button>
+          <button class="exit">Exit</button>
+        </div>
+      </div>
+      <div class="image-container">
+        <!-- <div class="image-box">
+          <img class="hidden-image" src="./img/bunny.jpg" alt="bunny" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/bunny.jpg" alt="bunny" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/horse.jpg" alt="horse" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/horse.jpg" alt="horse" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/tiger.jpg" alt="tiger" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/tiger.jpg" alt="tiger" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/cat.jpg" alt="bunny" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/cat.jpg" alt="bunny" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/dog.jpg" alt="horse" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/dog.jpg" alt="horse" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/snake.jpg" alt="tiger" />
+        </div>
+        <div class="image-box">
+          <img class="hidden-image" src="./img/snake.jpg" alt="tiger" />
+        </div> -->
+      </div>
+      <div class="results">
+        <h3>Score: <span id="score">0</span></h3>
+        <h3>Failed Attempts: <span id="failed_attempts">0</span></h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+>>>>>>> 6e40cafa063736c400791295c31173b04bdb95e6
