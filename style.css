@@ -161,44 +161,45 @@ body {
   .image-container {
     display: grid;
     background-color: antiquewhite;
-    width: 280px;
-    grid-gap: 5px;
-    padding: 5px;
-    border-radius: 8px;
+    width: 70vw;
+    grid-gap: 1vh;
+    /* grid-column-gap: 1vh; */
+    padding: 1vh 1vh;
+    border-radius: 1vh;
     grid-template-columns: repeat(3, 1fr);
   }
   .image-container.hard {
     grid-template-columns: repeat(4, 1fr);
-    width: 380px;
+    width: 95vw;
   }
   .image-container.extra-hard {
     grid-template-columns: repeat(4, 1fr);
-    width: 380px;
+    width: 95vw;
   }
   .image-box {
-    width: 90px;
-    height: 90px;
+    width: 22vw;
+    height: 22vw;
     background-color: rgb(241, 148, 7);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1vh;
   }
 
   .image-revealed {
-    width: 90px;
-    height: 90px;
+    width: 22vw;
+    height: 22vw;
     position: relative;
     z-index: 0;
-    border-radius: 5px;
+    border-radius: 1vh;
   }
 
   .hidden-image {
     opacity: 0;
     background-color: aqua;
-    width: 90px;
-    height: 90px;
+    width: 22vw;
+    height: 22vw;
     position: relative;
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 1vh;
   }
   .popup-content-start {
     position: absolute;
@@ -206,13 +207,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
-    width: 350px;
-    height: 220px;
+    width: 90vw;
+    height: 30vh;
     z-index: 2;
     text-align: center;
-    padding: 20px;
+    padding: 5vh;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 2vh;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
