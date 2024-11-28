@@ -112,7 +112,7 @@ body {
 
 /* popup start */
 .popup-content-start {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
@@ -202,7 +202,7 @@ body {
     border-radius: 1vh;
   }
   .popup-content-start {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
