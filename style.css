@@ -49,8 +49,8 @@ body {
 }
 .overlay {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0vh;
+  left: 0vw;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.7);
@@ -64,39 +64,40 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: #fff;
-  width: 350px;
-  height: 220px;
+  width: 22vw;
+  height: 26vh;
+  /* height: min(38vh, 220px); */
   z-index: 2;
   text-align: center;
-  padding: 25px;
+  padding: 1.5vw;
   box-sizing: border-box;
-  border-radius: 20px;
+  border-radius: 1vw;
   background-color: antiquewhite;
 }
 
 .popup-content-finish h1 {
-  margin: 3px;
+  margin: 0 auto;
 }
 .status {
-  margin: 20px 0px;
-  font-size: 20px;
+  margin: 1.5vh 0vw;
+  font-size: 2.5vh;
 }
 
 .long-status {
-  margin: 10px 0px;
+  margin: 0.7vh 0vw;
 }
 
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin: 15px 0px 0px;
+  margin-top: 2.5vh;
 }
 .buttons button {
-  padding: 7px 14px;
+  padding: 1vh 1.1vw;
   border: none;
   outline: none;
-  font-size: 15px;
-  border-radius: 15px;
+  font-size: 1.8vh;
+  border-radius: 1.9vh;
   cursor: pointer;
   background-color: rgb(241, 148, 7);
 }
@@ -117,13 +118,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: #fff;
-  width: 350px;
-  height: 220px;
+  width: 22vw;
+  height: 26vh;
   z-index: 2;
   text-align: center;
-  padding: 20px;
+  padding: 1.5vw;
   box-sizing: border-box;
-  border-radius: 20px;
+  border-radius: 1vw;
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
@@ -131,24 +132,25 @@ body {
 }
 
 .popup-content-start h1 {
-  margin: 15px 0px 15px 0px;
+  margin-top: 0vh;
+  margin-bottom: 1vh;
 }
 
 .select_level {
-  width: 80px;
-  height: 25px;
+  width: 6vw;
+  height: 3.5vh;
   text-align: center;
-  border: 1.5px solid black;
-  border-radius: 5px;
-  margin: 5px 0px;
+  border: 0.1vw solid black;
+  border-radius: 1vw;
+  margin-top: 1.3vh;
 }
 .start {
-  margin: 15px 0px;
-  padding: 7px 20px;
+  margin-top: 2vh;
+  padding: 1vh 1.5vw;
   border: none;
   outline: none;
-  font-size: 15px;
-  border-radius: 15px;
+  font-size: 1.8vh;
+  border-radius: 2vw;
   cursor: pointer;
   background-color: rgb(241, 148, 7);
 }
