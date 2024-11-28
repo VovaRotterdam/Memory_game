@@ -211,7 +211,7 @@ body {
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
     width: 80vw;
-    height: 30vh;
+    height: 35vh;
     z-index: 2;
     text-align: center;
     padding: 5vh;
@@ -255,7 +255,7 @@ body {
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
     width: 90vw;
-    height: 26vh;
+    height: 31vh;
     /* height: min(38vh, 220px); */
     z-index: 2;
     text-align: center;
