@@ -174,22 +174,30 @@ function handleImageclick(event) {
       score_counter === level_of_game.length / 2
     ) {
       openPopupfinish();
-      if (score_counter === 3) {
-        commentPopup.innerHTML = "Very good, try next level!";
-      } else if (failed_att_counter === 3) {
-        commentPopup.innerHTML = "Loser, you can't do even this!";
-      } else if (score_counter === 6) {
-        commentPopup.innerHTML = "You are cool. Do you want hard one?";
-      } else if (failed_att_counter === 6) {
-        commentPopup.innerHTML = "It's not easy, try again!";
-      } else if (score_counter === 8) {
-        commentPopup.innerHTML = "You've good memory";
-      } else if (failed_att_counter === 8) {
-        commentPopup.innerHTML = "Not bad, but try again!";
-      } else if (score_counter === 10) {
-        commentPopup.innerHTML = "DONE!";
-      } else if (score_counter === 10) {
-        commentPopup.innerHTML = "Almoust!";
+      if (level_of_game.length === 6) {
+        if (score_counter === 3) {
+          commentPopup.innerHTML = "Very good, try next level!";
+        } else {
+          commentPopup.innerHTML = "Loser, you can't do even this!";
+        }
+      } else if (level_of_game.length === 12) {
+        if (score_counter === 6) {
+          commentPopup.innerHTML = "You are cool. Keep going!";
+        } else {
+          commentPopup.innerHTML = "You could beter! Again?";
+        }
+      } else if (level_of_game.length === 16) {
+        if (score_counter === 8) {
+          commentPopup.innerHTML = "You have a good memory";
+        } else {
+          commentPopup.innerHTML = "Not bad, but try again!";
+        }
+      } else {
+        if (score_counter === 10) {
+          commentPopup.innerHTML = "just DONE!";
+        } else {
+          commentPopup.innerHTML = "Almost!";
+        }
       }
     }
   }
