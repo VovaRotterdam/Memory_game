@@ -182,6 +182,14 @@ function handleImageclick(event) {
         commentPopup.innerHTML = "You are cool. Do you want hard one?";
       } else if (failed_att_counter === 6) {
         commentPopup.innerHTML = "It's not easy, try again!";
+      } else if (score_counter === 8) {
+        commentPopup.innerHTML = "You've good memory";
+      } else if (failed_att_counter === 8) {
+        commentPopup.innerHTML = "Not bad, but try again!";
+      } else if (score_counter === 10) {
+        commentPopup.innerHTML = "DONE!";
+      } else if (score_counter === 10) {
+        commentPopup.innerHTML = "Almoust!";
       }
     }
   }

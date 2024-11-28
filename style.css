@@ -157,7 +157,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
 }
 
-@media (min-width: 390px) {
+@media (max-width: 390px) {
   .image-container {
     display: grid;
     background-color: antiquewhite;
@@ -194,10 +194,28 @@ body {
   .hidden-image {
     opacity: 0;
     background-color: aqua;
-    border: 1px solid black;
     width: 90px;
     height: 90px;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
+  }
+  .popup-content-start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 350px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
