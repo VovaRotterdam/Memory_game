@@ -211,12 +211,12 @@ body {
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
     width: 80vw;
-    height: 35vh;
+    height: 33vh;
     z-index: 2;
     text-align: center;
     padding: 5vh;
     box-sizing: border-box;
-    border-radius: 2vh;
+    border-radius: 3vh;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
@@ -255,13 +255,13 @@ body {
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
     width: 90vw;
-    height: 31vh;
+    height: 29vh;
     /* height: min(38vh, 220px); */
     z-index: 2;
     text-align: center;
     padding: 5vw;
     box-sizing: border-box;
-    border-radius: 2vh;
+    border-radius: 3vh;
     background-color: antiquewhite;
   }
   .popup-content-finish h1 {
